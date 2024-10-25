@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="ig"></div>
+    <div class="container">
+        <h1><strong>Login</strong></h1>
+        <form id="loginForm">
+            <div class="input-group" >
+                <label for="username"></label>
+                <input type="text" id="username" placeholder="Username" required>
+            </div>
+            <div class="input-group">
+                <label for="password"></label>
+                <input type="password" id="password" placeholder="Password" required>
+            </div>
+            <pre>             <button type="submit" ><a href="/index1.html" color="black"> Login</a></button>
+                <p id="errorMessage" class="error-message"></p>
+            </form></pre>
+    </div>
+
+    <script> 
+            function login (){
+      let usarname=document.getElememntById("usarname").value;
+
+      let password2=document.getElementById("password_user").value;
+
+      let text_show=doucment.getElementById("text_show");
+
+      let website_usarname="User";
+      let website_password="12345"
+
+      if( usarname == website_usarname && password2 == website_password){
+
+        window.location="index1.html"
+      }
+}
+    </script>
+</body>
+</html>
